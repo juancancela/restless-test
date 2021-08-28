@@ -65,7 +65,7 @@ Test challenge from Restless.
 
 ### Running Unit Tests
 
-1. Run the following command to run the tests and generate an html report containing the results:
+1. Execute the following command to run the tests and generate an html report containing the results:
 
     ```bash
     npm test
