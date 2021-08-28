@@ -1,10 +1,13 @@
 const getProps = () => {
-  return {
-    port: parseInt(process.env.PORT),
-    baseUrl: process.env.BASE_URL
+    return {
+      port: parseInt(process.env.PORT),
+      baseUrl: process.env.BASE_URL,
+      httpRetries: parseInt(process.env.HTTP_RETRIES),
+      cacheTTL: parseInt(process.env.CACHE_TTL),
+      cacheEnabled: process.env.CACHE_ENABLED === "yes" ? true : false
+    };
   };
-};
-
-module.exports = {
-  getProps,
-};
+  
+  module.exports = {
+    getProps
+  };
