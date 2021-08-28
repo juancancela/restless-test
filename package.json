@@ -24,6 +24,7 @@
   "homepage": "https://github.com/juancancela/restless-test#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0"
   }
 }
