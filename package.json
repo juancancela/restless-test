@@ -4,7 +4,8 @@
   "description": "test challenge from restless",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'tests/**/*.js' --recursive --timeout 60000 --exit"
+    "start": "node index.js",
+    "test": "mocha 'tests/**/*.js' --recursive --reporter mochawesome --timeout 60000 --exit && open mochawesome-report/mochawesome.html"
   },
   "repository": {
     "type": "git",
